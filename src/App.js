@@ -3,6 +3,7 @@ import {
   BrowserRouter as Router,
   Route, Switch
 } from "react-router-dom";
+import ChooseUs from './Components/HomePageComponents/AboutUsNave/ChooseUs/ChooseUs';
 import OurDocuments from './Components/HomePageComponents/AboutUsNave/OurDocuments/OurDocuments';
 import OurPerformence from './Components/HomePageComponents/AboutUsNave/OurPerformence/OurPerformence';
 import Management from './Components/HomePageComponents/Management/Management';
@@ -33,6 +34,9 @@ const App = () => {
         </Route>
         <Route path="/document">
           <OurDocuments />
+        </Route>
+        <Route path="/chooseus">
+          <ChooseUs />
         </Route>
       </Switch>
     </Router>

@@ -73,7 +73,7 @@ const hideGalleryDropdown = e => {
             <NavDropdown className='about-align' show={showAbout} onMouseEnter={showAboutDrop} onMouseLeave={hideAboutDrop} title="About Us" id="basic-nav-dropdown" alignRight>
                     <NavDropdown.Item href="/performence">Performence</NavDropdown.Item>
                     <NavDropdown.Item href="/document">Documents</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">Why Choose Us</NavDropdown.Item>
+                    <NavDropdown.Item href="/chooseus">Why Choose Us</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.4">Why Choose BD Workers</NavDropdown.Item>
                 </NavDropdown>
 
