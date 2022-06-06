@@ -1,0 +1,89 @@
+.header-container {
+  height: 100vh;
+  background-color: #8de78d;
+  
+  
+}
+
+.header-container::after {
+  height: 100vh;
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 68%;
+  background-image: url("../../../Images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -10;
+  
+}
+
+.navbar {
+  transition: all 0.3s;
+}
+
+.banner {
+  height: 90vh;
+  /* background-image: linear-gradient(to right, rgba(231, 87, 94, 0.644), rgba(85, 233, 184, 0.562)); */
+}
+
+.banner h1 {
+  color: black;
+}
+
+.banner .btn {
+  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+}
+
+.navbar .btn {
+  border-radius: 50px;
+}
+/* ------------
+        Nav Dropdown 
+    --------------*/
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+/* ------------
+        Responsive Part 
+    --------------*/
+
+@media (max-width: 768px) {
+  .banner .btn {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.4rem;
+    border-radius: 50px;
+  }
+
+  .header-container {
+    height: 500px;
+  }
+
+  .header-container::after {
+    height: 500px;
+    width: 360px;
+    background-size: contain;
+  }
+
+  .banner {
+    height: 500px;
+    margin-top: 80px;
+  }
+}

@@ -1,0 +1,73 @@
+.service-container {
+    /* background-image: url("../../../images/header-bg.png"); */
+    background-repeat: no-repeat;
+    /* background-color: antiquewhite; */
+    background-color: #ffffffb6;
+    background-size: cover;
+    text-align: center;
+    padding-top: 5rem;
+    height: 115vh;
+  }
+  
+  .service-container h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #10bad4;
+  }
+  
+  .service-container h3 {
+    position: relative;
+    padding-bottom: 20px;
+  }
+  
+  .service-container h3:before {
+    content: "";
+    position: absolute;
+ 
+    left: 0;
+    bottom: 0;
+    width: 5rem;
+    height: 3px;
+    background: #17a2b8;
+    border-radius: 20px;
+    left: 50% !important;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  
+  .service-member {
+      background-color: rgba(100, 212, 178, 0.164);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .service-member h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  @media (min-width: 1800px) {
+    .swiper-slide {
+      height: 50vh;
+    }
+  }
+  .services-align:hover{
+    text-decoration: none;
+  }

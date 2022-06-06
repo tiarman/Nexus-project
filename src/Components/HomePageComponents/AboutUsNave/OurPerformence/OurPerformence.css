@@ -1,0 +1,22 @@
+.welcom-sector{
+    margin-top: 20px;
+}
+.marque-welcome-texts{
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    text-align: justify;
+    margin-top: -15px;
+    height: 200px;
+}
+.marque-welcome-text{
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    text-align: justify;
+    margin-top: -15px;
+}
+/* .margue-section-2{
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    text-align: justify;
+    margin-top: -15px;
+} */

@@ -1,0 +1,5 @@
+.scrool-align{
+    -ms-overflow-style: none; /* Edge, Internet Explorer */
+scrollbar-width: none; /* Firefox */
+overflow-x: scroll;
+}

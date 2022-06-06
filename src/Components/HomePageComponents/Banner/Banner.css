@@ -1,0 +1,16 @@
+.particle1{
+    height: 50px;
+}
+.banner-img img{
+    width: 20px !important;
+}
+.banner{
+    
+}
+.curv-image-align img{
+    width: 100%;
+    position: sticky;
+    margin-top: 18px;
+    /* filter: invert(1%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%); */
+    filter: opacity(1000) drop-shadow(0 0 0 #8de78d);
+}
